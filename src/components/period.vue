@@ -342,8 +342,12 @@
   }
 </script>
 <style type="text/css">
+  .period {
+    width: 700px;
+  }
   .period .period-header {
     position: relative;
+    height: 30px;
   }
   .period .box {
     display: inline-block;
@@ -364,6 +368,9 @@
   .period .box.on {
     background-color: #20A0FF;
     color: white;
+  }
+  .period .period-btn-group {
+    float: left;
   }
   .period .period-status-group {
     position: absolute;
@@ -387,5 +394,6 @@
     margin: 0 0 0 85px;
     line-height: 20px;
     font-size: 14px;
+    text-align: left;
   }
 </style>

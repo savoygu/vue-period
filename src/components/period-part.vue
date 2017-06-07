@@ -95,13 +95,14 @@
 </script>
 <style type="text/css">
   .period-part {
+    height: 20px;
     margin-bottom: 10px;
   }
   .period-part .period-part__checkbox {
-    display: inline-block;
+    float: left;
   }
   .period-part .period-part__box {
-    display: inline-block;
+    float: right;
     margin-left: 20px;
     font-size: 0;
   }

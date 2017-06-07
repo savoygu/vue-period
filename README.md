@@ -37,9 +37,6 @@ Support UMD library and individual CSS file.
 // For ES6 module
 import Period from 'vue-period'
 
-// For commonJS
-const Period  = require('vue-period').default
-
 // Import from src code for debugging or self building
 import Period from 'vue-period/src';
 ```

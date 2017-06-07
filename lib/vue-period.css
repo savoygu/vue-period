@@ -1,1 +1,68 @@
-.period-part{margin-bottom:10px}.period-part .period-part__checkbox{display:inline-block}.period-part .period-part__box{display:inline-block;margin-left:20px;font-size:0}.period .period-header{position:relative}.period .box{display:inline-block;width:20px;height:20px;line-height:20px;margin-right:5px;text-align:center;font-size:12px;color:#666;background-color:#e6e6e6;border-radius:3px;cursor:pointer}.period .box:last-child{margin-right:0}.period .box.on{background-color:#20a0ff;color:#fff}.period .period-status-group{position:absolute;top:6px;right:0}.period .period-status{display:inline-block;font-size:0}.period .period-status .text{display:inline-block;vertical-align:top;line-height:20px;font-size:12px}.period .period-content{margin-top:10px}.period .period-footer p{margin:0 0 0 85px;line-height:20px;font-size:14px}
+
+.period-part {
+  height: 20px;
+  margin-bottom: 10px;
+}
+.period-part .period-part__checkbox {
+  float: left;
+}
+.period-part .period-part__box {
+  float: right;
+  margin-left: 20px;
+  font-size: 0;
+}
+
+.period {
+  width: 700px;
+}
+.period .period-header {
+  position: relative;
+  height: 30px;
+}
+.period .box {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  margin-right: 5px;
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+  background-color: #E6E6E6;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.period .box:last-child {
+  margin-right: 0px;
+}
+.period .box.on {
+  background-color: #20A0FF;
+  color: white;
+}
+.period .period-btn-group {
+  float: left;
+}
+.period .period-status-group {
+  position: absolute;
+  top: 6px;
+  right: 0;
+}
+.period .period-status {
+  display: inline-block;
+  font-size: 0;
+}
+.period .period-status .text {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 20px;
+  font-size: 12px;
+}
+.period .period-content {
+  margin-top: 10px;
+}
+.period .period-footer p {
+  margin: 0 0 0 85px;
+  line-height: 20px;
+  font-size: 14px;
+  text-align: left;
+}

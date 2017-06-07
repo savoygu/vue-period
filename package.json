@@ -1,7 +1,7 @@
 {
   "name": "vue-period",
   "description": "Vue-based time selection component",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "savoygu <savoygu@gmail.com><savoygu@163.com>",
   "main": "lib/vue-period.js",
   "files": [
@@ -11,6 +11,7 @@
     "src"
   ],
   "scripts": {
+    "deploy": "npm run build && npm run demo:build && npm run demo:prepublish",
     "build": "rm -rf ./lib && webpack --config ./build/webpack.config.js --progress --hide-modules",
     "demo:dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot --config ./build/webpack.example.dev.conf.js",
     "demo:build": "cross-env NODE_ENV=production webpack --config ./build/webpack.example.prod.conf.js",
