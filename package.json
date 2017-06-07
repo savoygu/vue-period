@@ -14,8 +14,8 @@
     "deploy": "npm run build && npm run demo:build && npm run demo:prepublish",
     "build": "rm -rf ./lib && webpack --config ./build/webpack.config.js --progress --hide-modules",
     "demo:dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot --config ./build/webpack.example.dev.conf.js",
-    "demo:build": "cross-env NODE_ENV=production webpack --config ./build/webpack.example.prod.conf.js",
-    "demo:prepublish": "cross-env NODE_ENV=prepublish webpack --config ./build/webpack.example.prod.conf.js"
+    "demo:build": "rm -rf ./example/dist && cross-env NODE_ENV=production webpack --config ./build/webpack.example.prod.conf.js",
+    "demo:prepublish": "rm -rf ./example/prepublish && cross-env NODE_ENV=prepublish webpack --config ./build/webpack.example.prod.conf.js"
   },
   "repository": {
     "type": "git",
