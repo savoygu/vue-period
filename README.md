@@ -2,6 +2,10 @@
 
 > Vue-based time selection component
 
+## Screenshots
+
+![vue-period](screenshot/period.gif)
+
 ## Install
 
 Get source from npm or yarn.
