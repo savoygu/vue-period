@@ -20,8 +20,8 @@ module.exports = merge(baseWebpackConfig, {
   },
   devtool: '#source-map',
   output: {
-    path: path.resolve(__dirname, '..', `${isProduction ? './example/dist' : './gh-pages/vue-period'}`),
-    publicPath: isProduction ? '/' : '/vue-period',
+    path: path.resolve(__dirname, '..', `${isProduction ? './example/dist' : './gh-pages'}`),
+    publicPath: '/',
     filename: 'js/[name].[chunkhash].js'
   },
   plugins: [
